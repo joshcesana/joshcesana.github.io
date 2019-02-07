@@ -3,6 +3,9 @@
 body {
 	overflow-x: hidden; /*--right gutter fix--*/
 }
+.navbar-brand img {
+	height: 2rem;
+}
 
 /*--- iOS Landing Page Fix --*/
 .landing {
