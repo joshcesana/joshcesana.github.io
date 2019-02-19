@@ -15,11 +15,38 @@ a:hover {
 	color: gray;
 	text-decoration: none;
 }
+.fa-bars {
+	display: none;
+}
+@media (max-width: 768px) {
+	.nav-responsive {
+		display: none;
+	}
+	.fa-bars {
+		display: inline-flex;
+		color: white;
+	}
+}
+.custom-fluid-width {
+	width: 250px;
+}
+ul.sidebar {
+	list-style: none;
+}
+.sidebar-item {
+	margin: 2rem 0rem;
+	font-size: 1.75em;
+	text-transform: uppercase;
+}
 .navbar {
 	background-color: #505962;
 }
 .navbar-brand img {
 	height: 2rem;
+}
+.scrolling-box {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 .home-inner {
 	background-image: url('assets/images/landing.png');
@@ -116,6 +143,15 @@ img.projects {
 [class*="col-"] {
     padding: 1rem;
 }
+
+
+/* Slidebars */
+/*
+[canvas=container],
+[class*=js-] {
+    cursor: pointer;
+}
+*/
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
