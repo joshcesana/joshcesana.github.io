@@ -52,7 +52,7 @@ An easy code example would be a standard loop.
 
 ```
 for (let i = 0; i < N; i++) {
-     // do something in constant time...
+  // do something in constant time...
 }
 ```
 
@@ -68,9 +68,9 @@ An easy code example of this would be nested loops. Each single iteration of the
 
 ```
 for (let i = 0; i < N; i++) {
-        for (let j = 0; j < N; j++) {
-				      // do something in constant time...
-				}
+  for (let j = 0; j < N; j++) {
+	  // do something in constant time...
+	}
 }
 ```
 
@@ -82,7 +82,7 @@ Logarithmic time grows slower as *N* grows. A good way to check if a loop is *lo
 
 ```
 for (let i = 0; i < N; i *= 2) {
-        // do something in constant time...
+  // do something in constant time...
 }
 ```
 
@@ -100,9 +100,9 @@ A code example would be to combine a couple we have already learned.
 
 ```
 for (let i = 0; i < N; i++) {  // linear loop  O(n)
-        for (let i = 0; i < N; i *= 2) {  //  O(Log n)
-                // do something in constant time...
-        }
+  for (let i = 0; i < N; i *= 2) {  //  O(Log n)
+    // do something in constant time...
+  }
 }
 ```
 
