@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Roboto+Mono|Lato:400,700|Roboto+Slab|Roboto:400,700,900');
+
+html {
+	scroll-behavior: smooth;
+}
+p {
+	font-family: 'Merriweather', serif;
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight: 400;
+}
+strong {
+ font-weight: bold;
+}
+#technicalExperience-anchor, #skills-anchor, #contact-anchor {
+	display: block;
+	position: relative;
+	top: -50px;
+	visibility: hidden;
+}
+#contact-anchor {
+	padding-top: 50px;
+}
+
+.box {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.box span {
+	display: block;
+	width: 25px;
+	height: 25px;
+	border-bottom: 2px solid;
+	border-right: 2px solid;
+	transform: rotate(45deg);
+	margin: -10px;
+	animation: animate 2s infinite;
+}
+.box span:nth-child(2) {
+	animation-delay: -0.2s;
+}
+.box span:nth-child(3) {
+	animation-delay: -0.4s;
+}
+@keyframes animate {
+	0% {
+		opacity: 0;
+		transform: rotate(45deg) translate(-5px,-5px);
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: rotate(45deg) translate(5px,5px);
+	}
+}
+
+
+#hero {
+  background-size: cover;
+  position: relative;
+	background-image: url(/assets/images/SF-hero.jpg);
+}
+.header {
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  width: 100%;
+    font-size: 36px;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+   	-webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);
+}
+#technicalExperience {
+  padding: 20px 0px;
+  text-align: center;
+  width: 80%;
+  margin: 0px auto;
+}
+#skills {
+	padding: 20px 0px
+}
+
+
+
+
+
+
+.row-spacer {
+	margin-bottom: 60px;
+}
+.main-title {
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin-bottom: 0px;
+	text-shadow: 0px 0px 60px white, /* mulitple shadows = more intense */
+							 0px 0px 60px white,
+							 0px 0px 60px white,
+							 0px 0px 60px white;
+}
+.brand-logo {
+	font-family: 'Roboto Slab', serif;
+}
+.sub-title {
+	font-family: 'Merriweather', serif;
+	text-shadow: 0px 0px 60px white, /* mulitple shadows = more intense */
+							 0px 0px 60px white,
+							 0px 0px 60px white,
+							 0px 0px 60px white;
+}
+.no-margin {
+	margin: 0;
+}
+.parallax-container {
+	height: 100vh;
+	width: 100%;
+}
+.page-footer {
+	padding-top: 50px;
+}
+.footer-link {
+	color: white;
+}
+.footer-link:hover {
+	color: #90caf9;
+}
+@media only screen and (min-width: 992px) {
+	nav .brand-logo {
+		padding-left: 20px;
+	}
+}
+
+/* change highlight color */
+::-moz-selection { /* Code for Firefox */
+  background: #01FEFE;
+}
+::selection {
+  background: #01FEFE;
+}
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

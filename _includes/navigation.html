@@ -1,0 +1,25 @@
+<div class="navbar-fixed">
+	<nav>
+		<div class="nav-wrapper grey lighten-5">
+			<a href="/" class="brand-logo blue-text text-darken-2">
+				<span class="grey-text text-lighten-3">&lt;</span>JOSH<span class="grey-text text-lighten-3">&#47;&gt;</span>
+			</a>
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text text-darken-2 right"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+				{% for item in site.data.navigation %}
+					<li class="nav-item ">
+						<a href="{{item.link}}" class="blue-text text-darken-2">{{item.name}}</a>
+					</li>
+				{% endfor %}
+	    </ul>
+		</div>
+	</nav>
+</div>
+
+<ul class="sidenav" id="mobile-demo">
+	{% for item in site.data.navigation %}
+		<li class="nav-item ">
+			<a href="{{item.link}}" class="blue-text text-darken-2">{{item.name}}</a>
+		</li>
+	{% endfor %}
+</ul>

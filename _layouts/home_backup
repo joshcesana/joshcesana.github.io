@@ -1,0 +1,135 @@
+---
+layout: default
+title: Josh Cesana
+---
+<div id="top"></div>
+<div data-spy="scroll" data-target="#menu" >
+
+	<!-- Start Landing Page -->
+	<div class="landing">
+		<div class="home-wrap">
+			<div class="home-inner"></div>
+		</div>
+	</div>
+
+	<!-- Start Landing Page Caption -->
+	<div class="caption center-block text-center">
+		<h1>Josh Cesana</h1>
+		<h5>Full Stack Web Developer</h5>
+		<a href="#projects" class="btn btn-outline-light">Get Started</a>
+	</div>
+
+
+	<!-- Start Projects Section -->
+	<div id="projects">
+		<h3 class="heading">Projects</h3>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-4 d-flex">
+					<div class="card shadow-sm rounded">
+						<a href="https://github.com/JCesana/react-news-api" target="_blank">
+							<img src="assets/images/reactNewsScreenshot.gif" alt="" class="card-img-top">
+						</a>
+						<div class="card-body">
+							<h4>React News</h4>
+							<p><strong>React, Redux, HTML, CSS</strong></p>
+							<p>News client for searching, viewing, and saving articles.</p>
+							<div class="text-center">
+								<a href="https://vimeo.com/309930834" target="_blank" class="btn btn-dark">Video</a>
+	    					<a href="https://github.com/JCesana/react-news-api" target="_blank" class="btn btn-dark">Github</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-4 d-flex">
+					<div class="card shadow-sm rounded">
+						<a href="https://github.com/JCesana/rails-recipes" target="_blank">
+							<img src="assets/images/railsRecipesScreenshot.gif" alt="" class="card-img-top">
+						</a>
+						<div class="card-body">
+							<h4>Rails Recipes</h4>
+							<p><strong>Rails, JavaScript, HTML, CSS</strong></p>
+							<p>Recipes client for creating, viewing, updating, and deleting recipes.</p>
+							<div class="text-center">
+								<a href="https://vimeo.com/310222790" target="_blank" class="btn btn-dark">Video</a>
+	    					<a href="https://github.com/JCesana/rails-recipes" target="_blank" class="btn btn-dark">Github</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-lg-4 d-flex">
+					<div class="card shadow-sm rounded">
+						<a href="https://github.com/JCesana/sinatra-final-project-tasks" target="_blank">
+							<img src="assets/images/taskBuddyScreenshot.gif" alt="" class="card-img-top">
+						</a>
+						<div class="card-body">
+							<h4>Task Buddy</h4>
+							<p><strong>Ruby, Sinatra, HTML, CSS</strong></p>
+							<p>'To do' list client for adding and deleting tasks.</p>
+							<div class="text-center">
+								<a href="https://vimeo.com/310224135" target="_blank" class="btn btn-dark">Video</a>
+	    					<a href="https://github.com/JCesana/sinatra-final-project-tasks" target="_blank" class="btn btn-dark">Github</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Start Skills Section -->
+	<div id="skills">
+		<div class="jumbotron">
+			<h3 class="heading">Skills</h3>
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<h4>Languages</h4>
+					<p>JavaScript | HTML5 | CSS | Ruby | SQL </p>
+				</div>
+				<div class="col-md-4 text-center">
+					<h4>Frameworks</h4>
+					<p>React | Redux | Node | Rails | Sinatra | Bootstrap | Bulma | MaterializeCSS</p>
+				</div>
+				<div class="col-md-4 text-center">
+					<h4>Tools</h4>
+					<p>Git | Atom | Sublime | Photoshop</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Start Contact Section -->
+	<div id="contact">
+		<div class="container-fluid footer">
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6 text-center">
+					<h2>Contact</h2>
+					<form method="POST" action="https://formspree.io/joshcesana@gmail.com">
+					  <input type="text" class="form-control" name="name" placeholder="Name *" required><br />
+					  <input type="email" class="form-control" name="email" placeholder="Email *" required><br />
+					  <textarea name="message" class="form-control" placeholder="Message *" required></textarea><br />
+					  <button type="submit" class="btn btn-light">Send</button>
+					</form>
+
+					<div class="row">
+						<div class="col-md-12 col-lg-2 offset-lg-4">
+							<a href="https://www.linkedin.com/in/josh-cesana/" target="_blank" ><i class="fab fa-linkedin fa-3x"></i></a>
+						</div>
+						<div class="col-md-12 col-lg-2">
+							<a href="https://github.com/JCesana" target="_blank" ><i class="fab fa-github fa-3x"></i></a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<p>
+								Designed by <a href="http://joshcesana.com/">Josh Cesana</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
