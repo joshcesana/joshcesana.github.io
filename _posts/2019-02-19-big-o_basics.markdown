@@ -69,8 +69,8 @@ An easy code example of this would be nested loops. Each single iteration of the
 ```
 for (let i = 0; i < N; i++) {
   for (let j = 0; j < N; j++) {
-	  // do something in constant time...
-	}
+    // do something in constant time...
+  }
 }
 ```
 
