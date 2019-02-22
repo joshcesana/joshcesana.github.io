@@ -8,13 +8,9 @@ minutes:    9
 tagLine:    A beginner's guide to understanding Big-O.
 ---
 
-Big-0 is essentially an equation that describes how the run time scales with respect to some input variables. While that may sound confusing at first glance, I assure you that after we are done here, you have will have a very good grasp of the basics of Big-O, and it's importance in development.
+Big-0 is essentially an equation that describes how the run time scales with respect to some input variables. While that may sound confusing at first glance, I assure you that after we are done here, you have will have a very good grasp of the basics of Big-O and it's importance in development.
 
-In other words, Big-0 is a way to represent how long an algorithm will take to execute. Let's go through a few examples of what I mean. But first, take a look here to get a better idea of what is good and bad (or excellent and horrible).
-
-Big-0 is essentially an equation that describes how the run time scales with respect to some input variables. While that may sound confusing at first glance, I assure you that after we are done here, you have will have a very good grasp of the basics of Big-O, and it's importance in development.
-
-In other words, Big-0 is a way to represent how long an algorithm will take to execute. Let's go through a few examples of what I mean. But first, take a look here to get a better idea of what is good and bad (or excellent and horrible).
+In other words, Big-0 is a way to represent how long an algorithm will take to execute. Let's go through a few examples of what that means. But first, take a look here to get a better idea of what is good and bad (or 'excellent' and 'horrible').
 
 ![Big-O](https://i.imgur.com/LX1wKHY.png)
 
@@ -60,11 +56,11 @@ The higher *N* is, the more time it is going to take.
 
 ## O(n^2) - Quadratic Time
 
-That reads as 'O of n squared'. We are not in the 'horrible' zone in our chart when it comes to efficiency. Not only will the operations increase as *N* increases, *it will increase exponentially.*
+That reads as 'O of n squared'. We are now in the 'horrible' zone in our chart when it comes to efficiency. Not only will the operations increase as *N* increases, *it will increase exponentially.*
 
-A real world example of quadratic time would be going through a deck of cards to check for doubles. Each new card will force you to start the process over (unless you have a photogenic memory).
+A real world example of quadratic time would be going through a deck of cards to check for doubles. Each new card will force you to start the process over (unless you have a photographic memory).
 
-An easy code example of this would be nested loops. Each single iteration of the first loop will result in a total iteration of the second loop.
+A good code example of this would be nested loops. Each single iteration of the first loop will result in a total iteration of the second loop.
 
 ```
 for (let i = 0; i < N; i++) {
