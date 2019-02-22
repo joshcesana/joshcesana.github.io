@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Roboto+Mono|Lato:400,700|Roboto+Slab|Roboto:400,700,900');
-
-html {
-	scroll-behavior: smooth;
-}
 p {
 	font-family: 'Merriweather', serif;
 }
