@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Roboto+Mono|Lato:400,700|Roboto+Slab|Roboto:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Roboto+Mono|Lato:300,400,700|Roboto+Slab|Roboto:400,700,900');
 p {
 	font-family: 'Merriweather', serif;
 }
@@ -8,6 +8,50 @@ h1, h2, h3, h4, h5 {
 }
 strong {
  font-weight: bold;
+}
+.blog-title {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 3em;
+}
+.blog-tagLine {
+	font-family: 'Roboto Mono', sans-serif;
+	font-weight: 400;
+	font-size: 1.25em;
+	color: rgba(0,0,0,.54);
+	position: relative;
+	bottom: 20px;
+}
+.blog-content p {
+	color: rgba(0,0,0,.84);
+	line-height: 2.0;
+	font-size: 1.25em;
+}
+.blog-content h1, h2, h3, h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+}
+.blog-content div.highlight {
+	background: #eff0f1;
+}
+.blog-content img {
+	max-width: 100%;
+  height: auto;
+}
+.blog-info {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 1.0em;
+}
+.blog-minutes {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1.0em;
+	rgba(0,0,0,.54);
+	position: relative;
+	bottom: 10px;
+	margin-bottom: 30px;
 }
 #technicalExperience-anchor, #skills-anchor, #contact-anchor {
 	display: block;
@@ -125,11 +169,37 @@ strong {
 .footer-link:hover {
 	color: #90caf9;
 }
-@media only screen and (min-width: 992px) {
+.blog-container {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 42rem;
+	padding: 2.625rem 1.3125rem;
+}
+@media (min-width: 576px) {
+	/* .blog-container {
+		margin: 0 0;
+	} */
+}
+@media (min-width: 768px) {
+	/* .blog-container {
+		margin: 0 5vw;
+	} */
+}
+@media (min-width: 992px) {
+	/* .blog-container {
+		margin: 0 5vw;
+	} */
 	nav .brand-logo {
 		padding-left: 20px;
 	}
 }
+@media (min-width: 1200px) {
+	/* .blog-container {
+		margin: 0 15vw;
+	} */
+}
+
+
 
 /* change highlight color */
 ::-moz-selection { /* Code for Firefox */

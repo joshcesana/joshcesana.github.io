@@ -2,9 +2,15 @@
 layout: default
 ---
 <div class="container">
-  <h1>{{ page.title }}</h1>
-  <p>{{ page.date | date_to_string }} - {{ page.author }} - {{ page.minutes }} minutes read</p>
+  <div class="blog-container">
+    <h1 class="blog-title">{{ page.title }}</h1>
+    <p class="blog-tagLine">{{ page.tagLine }}</p>
+    <p class="blog-info">{{ page.date | date: '%B %d, %Y' }} - {{ page.author }}</p>
+    <p class="blog-minutes"><strong>{{ page.minutes }} minute read</strong></p>
 
-  {{ content }}
+    <div class="blog-content">
+      {{ content }}
+    </div>
 
+  </div>
 </div>
