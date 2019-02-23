@@ -4,7 +4,7 @@ title:      "Big-O Basics"
 date:       2019-02-20 01:53:05 +0000
 permalink:  big-o_basics
 author:     Josh Cesana
-minutes:    9
+minutes:    5
 tagLine:    A beginner's guide to understanding Big-O.
 ---
 

@@ -53,6 +53,22 @@ strong {
 	bottom: 10px;
 	margin-bottom: 30px;
 }
+.blog-minutes-condense {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1.0em;
+	rgba(0,0,0,.54);
+	position: relative;
+	bottom: 8px;
+}
+.blog-tagLine-condense {
+	font-family: 'Roboto Mono', sans-serif;
+	font-weight: 400;
+	font-size: 1.25em;
+	color: rgba(0,0,0,.54);
+	position: relative;
+	bottom: 25px;
+}
 #technicalExperience-anchor, #skills-anchor, #contact-anchor {
 	display: block;
 	position: relative;
@@ -84,6 +100,9 @@ strong {
 }
 .box span:nth-child(3) {
 	animation-delay: -0.4s;
+}
+.margin-bottom {
+	margin-bottom: 50px;
 }
 @keyframes animate {
 	0% {

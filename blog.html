@@ -2,13 +2,18 @@
 layout: default
 title: Blog
 ---
-<h1>Latest Posts</h1>
+<div class="container">
+  <div class="blog-container">
+    <h2 class="margin-bottom">Latest Blog Posts</h2>
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <h4 class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+          <p class="blog-minutes-condense">{{ post.date | date: '%b %d, %Y'}} - <strong>{{ post.minutes}} min read</strong></p>
+          <p class="blog-tagLine-condense">{{ post.tagLine }}</p>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -1,8 +1,11 @@
 - name: Technical Experience
-  link: '#technicalExperience-anchor'
+  link: '/#technicalExperience-anchor'
 
 - name: Skills
-  link: '#skills-anchor'
+  link: '/#skills-anchor'
+
+- name: Blog
+  link: '/blog'
 
 - name: Contact
-  link: '#contact-anchor'
+  link: '/#contact-anchor'
