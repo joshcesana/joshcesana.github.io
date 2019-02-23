@@ -8,8 +8,6 @@ minutes:    4
 tagLine:    A beginner's guide to understanding React state vs props.
 ---
 
-# React: State vs Props Explained
-
 As I study React more and more, I discover the importance of props and state, and more importantly, how to use them correctly and effectively. Let’s try to boil them down to their core uses, and also talk about the best times to use each one.
 
 First, let’s quickly summarize React in a nutshell: React is a powerful front end development library used for creating interactive user interfaces that relies on the creation of small chunks of reusable code, called components. To pass information between the components, we can use either props or state.

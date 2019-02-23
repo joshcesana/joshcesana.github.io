@@ -8,8 +8,6 @@ minutes:    4
 tagLine:    How I was able to create my first Ruby gem.
 ---
 
-# How I Created My First Gem
-
 Approaching the point in the curriculum at [Flatiron](https://flatironschool.com/) where students are required to create a Ruby "[Gem](https://en.wikipedia.org/wiki/RubyGems)" seemed intimidating at first.
 
 **How am I possibly going to create a gem?**

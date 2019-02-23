@@ -8,8 +8,6 @@ minutes:    4
 tagLine:    My take on explaining a CRUD application with MVC structure.
 ---
 
-# My Sinatra MVC CRUD Assessment Project
-
 I've come a long way from trying free coding exercises online. Remember those? Reverse this string... join this array.... While those were undoubtedly fun and engaging, I'm not proudly making full blown web applications! I honestly can't really believe it.
 
 I actually made a website with users, encrypted passwords, a database, the ability for users to create, edit, and delete content... it's actually quite amazing!

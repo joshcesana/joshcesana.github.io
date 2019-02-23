@@ -8,8 +8,6 @@ minutes:    5
 tagLine:    Redux explained from a high level.
 ---
 
-# Redux Explained
-
 As I'm learning more and more about React and Redux, I wanted to take the time to explain Redux very simply and from a high level.
 
 ## What does Redux do?

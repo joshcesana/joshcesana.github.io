@@ -8,8 +8,6 @@ minutes:    4
 tagLine:    How planning has helped me progress in projects and school.
 ---
 
-# Planning - FTW!
-
 First off... FTW = For The Win.
 
 ![](https://media.giphy.com/media/91r1cHbbFaRFu/giphy.gif)

@@ -8,8 +8,6 @@ minutes:    4
 tagLine:    Why Keeping Things Simple (Stupid!) always wins.
 ---
 
-# Please... K.I.S.S.
-
 No, I'm not talking about **smootching**!
 
 ![Smooching Minion](https://media.giphy.com/media/dMYVHzANYb9p6/giphy.gif)
