@@ -50,11 +50,11 @@ Instead of feeling the pressure of creating a massive (or what may *seem* massiv
 
 A very useful suggestion he gives is to use 'fake data' right off the bat to test your program as you go. Instead of always relying on scraping info from the internet, simply type in fake data in to your properties to get things moving.
 
-He also says a great workflow for creating a CLI app (or perhaps any app or program for that matter) is repeatedly **break and fix your code, over and over again**. Progress is key.
+He also says a great work flow for creating a CLI app (or perhaps any app or program for that matter) is repeatedly **break and fix your code, over and over again**. Progress is key.
 
 # My Final Gem
 
-To make a long story short, after many tweaks, minor headaches, and coffees, I was able to succesfully get my Gyms gem to work.
+To make a long story short, after many tweaks, minor headaches, and coffees, I was able to successfully get my Gyms gem to work.
 
 I utilized info from the website [http://www.gymsandfitnessclubs.com](http://www.gymsandfitnessclubs.com) to first allow the user to input a zip code, and to then get nearby gyms in that area. Then, when the user selects a gym (by number) more details of the gym appear to the user (name, address, phone number).
 
@@ -62,6 +62,6 @@ A simple demo video of my gem can be viewed **[here](https://drive.google.com/op
 
 Is this gem a game changer? Absolutely not, but it taught me how to create something from scratch. I was able to think of an idea, work using trial and error, and manifest that idea in to something tangible.
 
-I published the gem on RubyGems.org [here](https://rubygems.org/gems/gyms). 
+I published the gem on RubyGems.org [here](https://rubygems.org/gems/gyms).
 
 I can't wait to see what I will learn next! Thanks for reading!

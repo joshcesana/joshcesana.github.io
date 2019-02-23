@@ -84,6 +84,6 @@ Redux uses **state**, which is important and dynamic data. In real life, we call
 
 The altered/updated state is the final product being delivered to us from Redux, finally being delivered to the user.
 
-While this explanation is very simple and high level, it's important to grasp the overala flow and cycle of how Redux works.
+While this explanation is very simple and high level, it's important to grasp the overall flow and cycle of how Redux works.
 
 Redux can sound tricky and daunting at first, but if broken down and related to real world concepts, it can be quite manageable, understandable, and eventually, quite useful.

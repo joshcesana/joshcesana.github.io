@@ -13,7 +13,7 @@ tagLine:    How planning has helped me progress in projects and school.
 
 In my [previous post](/please_k_i_s_s) about keeping things simple, I talked about how my lack of keeping things simple kept me from making timely progress. In that time period of my studies, I discovered that focusing on one thing at a time and keeping things simple is how I can make efficient and profitable progress.
 
-Even something as simple as writing this blog post forces me to put this in to practice. I have stubbed out each paragraph and each heading in order to get me in the right frame of mind. Of course, flexibility is possible and often requried, but basic planning often promotes progress.
+Even something as simple as writing this blog post forces me to put this in to practice. I have stubbed out each paragraph and each heading in order to get me in the right frame of mind. Of course, flexibility is possible and often required, but basic planning often promotes progress.
 
 **Progress makes me feel good.**
 

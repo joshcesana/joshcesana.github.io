@@ -22,9 +22,9 @@ I wanted to like it. I really, really wanted to like it. This job has amazing po
 
 But I simply couldn't do it. I did not enjoy the work. I thought to myself, what else do I enjoy?
 
-Then I thought of when I was 15 years old when my older brother gave me my own "website" for my birthday. He had space on a server and gave me free reign on a webpage to do with it whatever I want.
+Then I thought of when I was 15 years old when my older brother gave me my own "website" for my birthday. He had space on a server and gave me free reign on a web page to do with it whatever I want.
 
-For fun, I decided to create a webpage that was a collection of goofy and fun .WAV files for people to download. This was in Yahoo's heyday, so I immediately listed my new creating in their search directory. To make a long story short, the website gained so much traction that my brother had to shut it down because of all the attention and traffic it was getting.
+For fun, I decided to create a web page that was a collection of goofy and fun .WAV files for people to download. This was in Yahoo's heyday, so I immediately listed my new creating in their search directory. To make a long story short, the website gained so much traction that my brother had to shut it down because of all the attention and traffic it was getting.
 
 Building something from scratch that was useful to people was a strangely rewarding feeling. That feeling was absent in my accounting work, which is perhaps why I was immediately turned off to it after diving in.
 

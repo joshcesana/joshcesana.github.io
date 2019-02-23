@@ -39,14 +39,14 @@ I looked at various gems that promised gold and glory, but can cause a beginner 
 
 The [Devise gem](https://github.com/plataformatec/devise) not only manages logins and authentication, you can hash and store passwords, configure with [Omniauth](https://github.com/omniauth), recover, register, remember, track, timeout, validate, lock... it's actually quite an amazing gem!
 
-But for someone that has had zero experience implenting it, I ran into MANY problems trying to get it to work. The main issue I had was to configure it with [Omniauth](https://github.com/omniauth), because another requirement was that my project allow login to social media.
+But for someone that has had zero experience implementing it, I ran into MANY problems trying to get it to work. The main issue I had was to configure it with [Omniauth](https://github.com/omniauth), because another requirement was that my project allow login to social media.
 
-**I spent unecessary countless hours tweaking, researching, googling, but I finally was able to make it work.**
+**I spent unnecessary countless hours tweaking, researching, googling, but I finally was able to make it work.**
 
 
 ![At what cost?](https://media.giphy.com/media/65DMhLUJG5CW4/giphy.gif)
 
-**I also needed to create a complex nested form to allow mulitple model creation simultaneously.**
+**I also needed to create a complex nested form to allow multiple model creation simultaneously.**
 
 ## What I Should of Done
 
@@ -58,7 +58,7 @@ I looked at more gems!! Arrggg!!!
 
 I found many gems that seemed very useful at the time, but in reality when I tried to implement them, and also get them to work well with the other gems I have going **(cough! Devise! Omniauth!)** I was running in to a world of hurt.
 
-Again, I spent countless hours tweaking code that should of been very straight foward. I eventually got rid of any gems that helped me with my forms. I know how to code it correctly myself, so that's exactly what I did. Simple!
+Again, I spent countless hours tweaking code that should of been very straight forward. I eventually got rid of any gems that helped me with my forms. I know how to code it correctly myself, so that's exactly what I did. Simple!
 
 **I needed a basic plan on what to code, step by step.**
 

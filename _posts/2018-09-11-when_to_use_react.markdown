@@ -11,7 +11,7 @@ tagLine:    A beginner's answer to 'should I use React for this project'?
 # When to Use React
 React has proven to be a powerful library that has taken the development industry by storm since its open source release in 2013. Originally created by Facebook and Instagram developers, React was use internally to create responsive user interfaces. Since its release, it has grown in popularity and is now a powerhouse in the JavaScript world.
 
-Although not a framework (like Angular or Vue), React is a library - a frontend library more specifically. It is simple and quite easy to learn. React can also be combined with many other third-party libraries to allow for powerful capabilities. React is focused on building user interfaces that are complex and responsive web applications.
+Although not a framework (like Angular or Vue), React is a library - a front end library more specifically. It is simple and quite easy to learn. React can also be combined with many other third-party libraries to allow for powerful capabilities. React is focused on building user interfaces that are complex and responsive web applications.
 
 ### Does my project need React?
 

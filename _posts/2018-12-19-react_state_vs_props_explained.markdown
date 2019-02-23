@@ -22,7 +22,7 @@ Props (short for properties) can be viewed as a component’s configuration. Pro
 
 Since React has a uni-directional data flow, props are passed from the parent component down to the child component.
 
-Props are immutable (cannot or should not be altered) as far as the receiving component is concerned. This makes props fixed throughout its lifecycle.
+Props are immutable (cannot or should not be altered) as far as the receiving component is concerned. This makes props fixed throughout its life cycle.
 
 ### What is state?
 
