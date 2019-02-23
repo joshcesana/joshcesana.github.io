@@ -248,6 +248,7 @@ DEPENDENCIES
   github-pages
   html-pipeline
   jekyll-feed (~> 0.6)
+  jekyll-seo-tag
   jekyll-timeago
   kramdown
   minima (~> 2.0)

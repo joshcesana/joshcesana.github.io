@@ -14,13 +14,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Josh Cesana
-email: joshuacesana@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Portfolio and blog for full stack web developer Josh Cesana.
+  Josh Cesana's portfolio and blog website, showcasing various projects and documenting the journey to becoming a web developer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://joshcesana.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: joshcesana
 github_username:  JCesana
+social:
+  name: Josh Cesana
+  links:
+    - https://twitter.com/JoshCesana
+    - https://www.facebook.com/joshuacesana
+    - https://www.linkedin.com/in/josh-cesana/
+    - https://github.com/JCesana
 
 # Build settings
 markdown: kramdown
@@ -28,6 +34,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-timeago
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

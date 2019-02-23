@@ -132,7 +132,7 @@ title: 			Josh Cesana
 		<div class="row">
 			<div class="col s12 m12 l8 offset-l2">
 				<h4 class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-				<p class="blog-minutes-condense">{{ post.date | timeago }} - <strong>{{ post.minutes}} min read</strong></p>
+				<p class="blog-minutes-condense">{{ post.date | date: '%B %d, %Y' }} - <strong>{{ post.minutes}} min read</strong></p>
 				<p class="blog-tagLine-condense">{{ post.tagLine }}</p>
 
 			</div>
