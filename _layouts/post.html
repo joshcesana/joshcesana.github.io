@@ -3,6 +3,9 @@ layout: default
 ---
 <div class="container">
   <div class="blog-container">
+    <p>
+      <a href="/blog"><< Main Blog</a>
+    </p>
     <h1 class="blog-title">{{ page.title }}</h1>
     <p class="blog-tagLine">{{ page.tagLine }}</p>
     <p class="blog-info">{{ page.date | date: '%B %d, %Y' }} - {{ page.author }}</p>
@@ -10,6 +13,9 @@ layout: default
 
     <div class="blog-content">
       {{ content }}
+      <div class="center-align">
+        <a href="/blog" class="blue darken-2 waves-effect waves-light btn-large back-button"><< Main Blog</a>
+      </div>
     </div>
 
   </div>
