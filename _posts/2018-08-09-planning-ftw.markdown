@@ -9,11 +9,14 @@ tagLine:    How planning has helped me progress in projects and school.
 ---
 
 # Planning - FTW!
+
+First off... FTW = For The Win.
+
 ![](https://media.giphy.com/media/91r1cHbbFaRFu/giphy.gif)
 
 In my [previous post](/please_k_i_s_s) about keeping things simple, I talked about how my lack of keeping things simple kept me from making timely progress. In that time period of my studies, I discovered that focusing on one thing at a time and keeping things simple is how I can make efficient and profitable progress.
 
-Even something as simple as writing this blog post forces me to put this in to practice. I have stubbed out each paragraph and each heading in order to get me in the right frame of mind. Of course, flexibility is possible and often required, but basic planning often promotes progress.
+Even something as simple as writing this blog post forces me to put this in to practice. I stubbed out each paragraph and each heading in order to get me in the right frame of mind. Of course, flexibility is possible and often required, but basic planning often promotes progress.
 
 **Progress makes me feel good.**
 
@@ -33,7 +36,7 @@ Nifty!
 
 Overlooking and planning projects in a timely, efficient manner, is an extremely valuable skill that will get you far in any industry, including programming.
 
-Fine tuning and optimizing this skill will pay dividends. Start small and try something simple to help up your planning game. Whether it be to jot down a plan of your day, your week, or your taking some time to plan out your month.
+Fine tuning and optimizing this skill will pay dividends. Start small and try something simple to help 'up' your planning game. Whether it be to jot down a plan of your day, your week, or taking some time to plan out your month.
 
 Don't beat yourself up if you can't live up to your schedule to a T, but I guarantee you that your frame of mind will be in a better place when it comes to your studying and projects.
 

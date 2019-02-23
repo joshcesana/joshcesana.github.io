@@ -40,7 +40,7 @@ Simple, right?
 
 Well, not quite.
 
-To keep with our example with keeping track of our tasks in a notebook, there's something between initiating an action and actually writing something on to the notebook... or Redux. Let's go over our thinking process before actually writing a note, and see how that relates to Redux.
+To stay with our example with keeping track of our tasks in a notebook, there's something between initiating an action and actually writing something on to the notebook... or Redux. Let's go over our thinking process before actually writing a note, and see how that relates to Redux.
 
 Let's imagine we are doing laundry in a public laundry room.
 

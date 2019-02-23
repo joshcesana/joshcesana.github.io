@@ -8,9 +8,9 @@ minutes:    5
 tagLine:    A beginner's guide to understanding Big-O.
 ---
 
-Big-0 is essentially an equation that describes how the run time scales with respect to some input variables. While that may sound confusing at first glance, I assure you that after we are done here, you have will have a very good grasp of the basics of Big-O and it's importance in development.
+Big-O is essentially an equation that describes how the run time scales with respect to some input variables. While that may sound confusing at first glance, I assure you that after we are done here, you have will have a very good grasp of the basics of Big-O and it's importance in development.
 
-In other words, Big-0 is a way to represent how long an algorithm will take to execute. Let's go through a few examples of what that means. But first, take a look here to get a better idea of what is good and bad (or 'excellent' and 'horrible').
+In other words, Big-O is a way to represent how long an algorithm will take to execute. Let's go through a few examples of what that means. But first, take a look here to get a better idea of what is good and bad (or 'excellent' and 'horrible').
 
 ![Big-O](https://i.imgur.com/LX1wKHY.png)
 
