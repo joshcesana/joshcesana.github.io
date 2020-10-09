@@ -33,8 +33,18 @@
     {% include navigation.html %}
     {{ content }}
     {% include footer.html %}
+
+    <!-- floating action button -->
+    <div class="fixed-action-btn">
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger btn-floating btn-large light-blue darken-1">
+        <i class="large fas fa-bars fa-3x margin-top white-text scroll-up-icon"></i>
+      </a>
+    </div>
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.0-rc7/iconify.min.js"></script>
     <script type="text/javascript" src="assets/js/scripts.js"></script>
   </body>
 </html>

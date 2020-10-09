@@ -1,8 +1,8 @@
-- name: Technical Experience
-  link: '/#technicalExperience-anchor'
+- name: Projects
+  link: '/#projects'
 
 - name: Skills
-  link: '/#skills-anchor'
+  link: '/#skills'
 
 - name: Blog
   link: '/blog'

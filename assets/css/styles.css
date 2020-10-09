@@ -1,13 +1,103 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Roboto+Mono|Lato:300,400,700|Roboto+Slab|Roboto:400,700,900');
-p {
-	font-family: 'Merriweather', serif;
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900|Roboto+Mono:400,500|Lato:300,400,700,900|Roboto+Slab|Roboto:400,700,900');
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: 'Lato', sans-serif
 }
-h1, h2, h3, h4, h5 {
-	font-family: 'Roboto Slab', sans-serif;
+body p {
+	font-size: 1.1em;
+}
+#projects a {
+	font-size: 1.2em;
+}
+#home {
+	outline: none;
+}
+.blog-content p {
+	font-family: 'Merriweather', 'Georgia', serif;
+	color: #333;
 	font-weight: 400;
+	line-height: 1.6;
+}
+.icon-button {
+	vertical-align: bottom;
+	font-size: .8em !important;
+	padding-left: 8px;
+}
+.container {
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
+	padding-bottom: 2em;
+	max-width: 720px;
+}
+.copyright-container {
+	box-sizing: border-box;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
+	max-width: 720px;
+	font-size: .75em;
+}
+.margin-left {
+	margin-left: 10px;
 }
 strong {
  font-weight: bold;
+}
+a.btn strong {
+	padding: .75em 1em;
+}
+header {
+	padding: 40px 20px 30px 20px;
+	height: calc(90vh - 100px);
+	max-height: 720px;
+}
+div.fixed-action-btn {
+	top: 17px;
+	right: 25px;
+	display: none !important;
+}
+.btn-floating {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+.scroll-up-icon {
+	position: relative;
+	bottom: 30px;
+	font-size: 2em !important;
+
+}
+#skills {
+	outline: none;
+}
+#josh-logo {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 18px;
+}
+.margin-top {
+	margin-top: 30px;
+}
+.group {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.sidenav li a {
+  color: white;
+}
+.nav-item {
+	font-family: 'Lato', sans-serif;
+	color: #333;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 .blog-title {
 	font-family: 'Roboto', sans-serif;
@@ -15,12 +105,20 @@ strong {
 	font-size: 3em;
 }
 .blog-tagLine {
-	font-family: 'Roboto Mono', sans-serif;
+	font-family: 'Merriweather', 'Georgia', serif;
 	font-weight: 400;
 	font-size: 1.25em;
 	color: rgba(0,0,0,.54);
 	position: relative;
 	bottom: 20px;
+}
+.blog-tagLine-condense {
+	font-family: 'Merriweather', 'Georgia', serif;
+	font-weight: 400;
+	font-size: 1.25em;
+	color: rgba(0,0,0,.54);
+	position: relative;
+	bottom: 25px;
 }
 .blog-content p {
 	color: rgba(0,0,0,.84);
@@ -34,6 +132,11 @@ strong {
 }
 .blog-content div.highlight {
 	background: #eff0f1;
+}
+.highlight code {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 500;
+	white-space: pre-wrap;
 }
 .blog-content img {
 	max-width: 100%;
@@ -61,14 +164,6 @@ strong {
 	position: relative;
 	bottom: 8px;
 }
-.blog-tagLine-condense {
-	font-family: 'Roboto Mono', sans-serif;
-	font-weight: 400;
-	font-size: 1.25em;
-	color: rgba(0,0,0,.54);
-	position: relative;
-	bottom: 25px;
-}
 .latest-entries {
 	padding-top: 50px;
 }
@@ -81,7 +176,6 @@ strong {
 #contact-anchor {
 	padding-top: 50px;
 }
-
 .box {
 	position: absolute;
 	top: 90%;
@@ -107,6 +201,7 @@ strong {
 .margin-bottom {
 	margin-bottom: 50px;
 }
+
 @keyframes animate {
 	0% {
 		opacity: 0;
@@ -120,38 +215,14 @@ strong {
 		transform: rotate(45deg) translate(5px,5px);
 	}
 }
-
-
-#hero {
-  background-size: cover;
-  position: relative;
-	background-image: url(/assets/images/SF-hero.jpg);
-}
-.header {
-  position: absolute;
-  top: 30%;
-  text-align: center;
-  width: 100%;
-    font-size: 36px;
-  -ms-transform: translate(0,-50%); /* IE 9 */
-   	-webkit-transform: translate(0,-50%); /* Safari */
-    transform: translate(0,-50%);
-}
-#technicalExperience {
-  padding: 20px 0px;
-  text-align: center;
-  width: 80%;
-  margin: 0px auto;
+#projects {
+	outline: none;
+	margin-top: 0;
+	padding-top: 30px;
 }
 #skills {
 	padding: 20px 0px
 }
-
-
-
-
-
-
 .row-spacer {
 	margin-bottom: 60px;
 }
@@ -165,9 +236,6 @@ strong {
 							 0px 0px 60px white,
 							 0px 0px 60px white;
 }
-.brand-logo {
-	font-family: 'Roboto Slab', serif;
-}
 .sub-title {
 	font-family: 'Merriweather', serif;
 	text-shadow: 0px 0px 60px white, /* mulitple shadows = more intense */
@@ -177,10 +245,6 @@ strong {
 }
 .no-margin {
 	margin: 0;
-}
-.parallax-container {
-	height: 100vh;
-	width: 100%;
 }
 .page-footer {
 	padding-top: 50px;
@@ -195,30 +259,55 @@ strong {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 42rem;
-	padding: 0 1.3125rem 2.1rem;
+	padding: 0 1.3125rem 0r;
 }
-@media (min-width: 576px) {
+.project-info-left {
+	text-align: left;
+}
+.project-info-right {
+	text-align: right;
+}
+#projects .project-img {
+	max-width: 500px;
+	height: auto;
+	width: 100%;
+}
+@media screen and (max-width: 576px) {
 	/* .blog-container {
 		margin: 0 0;
 	} */
-}
-@media (min-width: 768px) {
-	/* .blog-container {
-		margin: 0 5vw;
-	} */
-}
-@media (min-width: 992px) {
-	/* .blog-container {
-		margin: 0 5vw;
-	} */
-	nav .brand-logo {
-		padding-left: 20px;
+	.project-info-left, .project-info-right {
+		text-align: center;
+		background-color: pink;
+	}
+	.highlight code {
+		font-family: 'Roboto Mono', monospace;
+		font-weight: 500;
+		white-space: pre-wrap;
+		font-size: .8em;
 	}
 }
-@media (min-width: 1200px) {
+@media screen and (max-width: 768px) {
+	/* .blog-container {
+		margin: 0 5vw;
+	} */
+	#josh-logo {
+		padding-left: 0;
+	}
+}
+@media screen and (max-width: 992px) {
+	/* .blog-container {
+		margin: 0 5vw;
+	} */
+}
+@media screen and (max-width: 1200px) {
 	/* .blog-container {
 		margin: 0 15vw;
 	} */
+	#josh-logo {
+		padding-left: 20px;
+	}
+
 }
 
 
@@ -249,3 +338,47 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+
+.sidenav-footer {
+	overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+	height: 30vh;
+}
+.sidenav-footer a {
+	float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.gray {
+	color: gray;
+}
+.icons {
+	font-size: 6em;
+}
+.caption {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center !important;
+	margin-top: -25px;
+	padding-left: 20px;
+}
+.skill-icon {
+	max-height: .8em;
+	width: auto;
+	margin: 0 20px;
+}
+[data-icon="logos:materializecss"] {
+
+}
+[data-icon="mdi:language-ruby-on-rails"] {
+	color: #B02B2C;
+}
+.social-icons {
+	padding-top: 5vh;
+}

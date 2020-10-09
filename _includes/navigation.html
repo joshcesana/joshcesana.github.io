@@ -1,14 +1,14 @@
-<div class="navbar-fixed">
-	<nav>
-		<div class="nav-wrapper grey lighten-5">
-			<a href="/#home" class="brand-logo blue-text text-darken-2">
-				<span class="grey-text text-lighten-2">&lt;</span>JOSH<span class="grey-text text-lighten-2">&#47;&gt;</span>
+<div class="navbar" id="home">
+	<nav class="light-blue darken-1">
+		<div class="nav-wrapper light-blue darken-1 group">
+			<a href="/#home" class="brand-logo white-text left" id="josh-logo">
+				Josh Cesana
 			</a>
-			<a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text text-darken-2 right"><i class="material-icons">menu</i></a>
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger white-text right"><i class="material-icons">menu</i></a>
 			<ul class="right hide-on-med-and-down">
 				{% for item in site.data.navigation %}
-					<li class="nav-item ">
-						<a href="{{ item.link }}" class="blue-text text-darken-2">{{item.name}}</a>
+					<li class="nav-item">
+						<a href="{{ item.link }}" class="white-text hvr-underline-reveal">{{item.name}}</a>
 					</li>
 				{% endfor %}
 	    </ul>
@@ -17,9 +17,27 @@
 </div>
 
 <ul class="sidenav" id="mobile-demo">
+		<li class="nav-item">
+			<a href="/#home" class="blue-text text-darken-2"><strong>Home</strong></a>
+			</li>
 	{% for item in site.data.navigation %}
 		<li class="nav-item ">
-			<a href="{{ item.link }}" class="blue-text text-darken-2">{{item.name}}</a>
+			<a href="{{ item.link }}" class="blue-text text-darken-2"><strong>{{item.name}}</strong></a>
 		</li>
 	{% endfor %}
+		<footer class="sidenav-footer grey darken-4">
+			<div class="row">
+	      <div class="container social-icons">
+	        <div class="col s4">
+	          <a href="#"><i class="fab fa-2x fa-lg fa-linkedin"></a></i>
+	        </div>
+	        <div class="col s4">
+	          <a href="#"><i class="fab fa-2x fa-lg fa-facebook"></a></i>
+	        </div>
+	        <div class="col s4">
+	          <a href="#"><i class="fab fa-2x fa-lg fa-twitter"></a></i>
+	        </div>
+	      </div>
+	    </div>
+		</footer>
 </ul>

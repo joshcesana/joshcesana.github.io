@@ -12,25 +12,6 @@ $(document).ready(function(){
         });
 });
 
-// hero image full screen sizing
-$(document).ready(function($){
- // Defining a function to set size for #hero
-	function fullscreen(){
-		$('#hero').css({
-            width: $(window).width(),
-            height: $(window).height()
-        });
-	}
-
-	fullscreen();
-
-  // Run the function in case of window resize
-  $(window).resize(function() {
-       fullscreen();
-    });
-
-});
-
 // smooth scrolling via links
 
 // Select all links with hashes
@@ -54,7 +35,7 @@ $('a[href*="#"]')
         event.preventDefault();
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 1000, function() {
+        }, 500, function() {
           // Callback after animation
           // Must change focus!
           var $target = $(target);
@@ -69,3 +50,21 @@ $('a[href*="#"]')
       }
     }
   });
+
+// floating scroll up button
+$(document).ready(function(){
+  $('.fixed-action-btn').floatingActionButton();
+});
+
+// When the user scrolls down 50px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  let button = document.getElementsByClassName("fixed-action-btn")[0];
+
+  if (document.body.scrollTop > 670 || document.documentElement.scrollTop > 670) {
+    button.style.setProperty("display", "inline-block", "important");
+  } else {
+    button.style.setProperty("display", "none", "important")
+  }
+}
