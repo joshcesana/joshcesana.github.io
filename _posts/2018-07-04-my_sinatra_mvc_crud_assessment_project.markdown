@@ -27,7 +27,7 @@ CRUD stands for:
 **V**iew  
 **C**ontroller  
 
-My web application, found [here](https://github.com/JCesana/sinatra-final-project-tasks) for the curious, was built with the **MVC** structure in mind.
+My web application, found [here](https://github.com/joshcesana/sinatra-final-project-tasks) for the curious, was built with the **MVC** structure in mind.
 
 ## What is MVC?
 

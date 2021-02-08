@@ -22,7 +22,7 @@ And oh, how I wish I meditated on these words before I started my Rails project.
 
 Have you ever started a project, only to get held up because you seem to be over thinking every single step? That's exactly what happened to me, to the extreme!
 
-I was excited to implement my [Rails Recipes](https://github.com/JCesana/rails-recipes) idea with all the bells and whistles.
+I was excited to implement my [Rails Recipes](https://github.com/joshcesana/rails-recipes) idea with all the bells and whistles.
 
 Let's look at some of the requirements...
 
